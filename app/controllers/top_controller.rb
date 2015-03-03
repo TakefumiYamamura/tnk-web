@@ -5,4 +5,7 @@ class TopController < ApplicationController
   end
   def member
   end
+  def test
+    
+  end
 end
