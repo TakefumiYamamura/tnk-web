@@ -3,4 +3,6 @@ class TopController < ApplicationController
   end
   def contact
   end
+  def member
+  end
 end
