@@ -5,7 +5,8 @@ class TopController < ApplicationController
   end
   def member
   end
+  def history
+  end
   def test
-    
   end
 end

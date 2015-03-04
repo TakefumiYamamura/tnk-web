@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'top#top'
   get '/top'=>'top#top'
+  get '/history' => 'top#history'
+  get '/activity' => 'top#activity'
   get '/contact' => 'top#contact'
   get '/member' => 'top#member'
   get '/test' => 'top#test'
