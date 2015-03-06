@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
   root 'top#top'
+  get '/top'=>'top#top'
+  get '/history' => 'top#history'
+  get '/activity' => 'top#activity'
   get '/contact' => 'top#contact'
+  get '/member' => 'top#member'
+  get '/recruit' => 'top#recruit'
+  get '/test' => 'top#test'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -31,6 +31,16 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://shapebootstrap.net/demo/html/corlate/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="http://shapebootstrap.net/demo/html/corlate/images/ico/apple-touch-icon-57-precomposed.png">
 
+    <style type="text/css">  
+<!-- 
+    @font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/assets/glyphicons-halflings-regular.eot');
+  src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+-->  
+    </style> 
 </head>
 <body>
    <header id="header"><!--/.top-bar-->
@@ -44,24 +54,31 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="" style="font-size: 14px;"><img src="/assets/new_tnk_logo_white.jpg" alt="logo"> 東京大学起業サークルTNK</a><!-- <p style="color:white;">東大起業サークルTNK</p> -->
+                    <a class="navbar-brand" href="/top" style="font-size: 14px;"><img src="/assets/new_tnk_logo_white.jpg" alt="logo"> 東京大学起業サークルTNK</a><!-- <p style="color:white;">東大起業サークルTNK</p> -->
                 </div>
         
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="/">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                        <li class=""><a href="/top">About</a></li>
+                        <li class="dropdown ">
+                            <a href="/activity" class="dropdown-toggle" data-toggle="dropdown">
+                            Activity </a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Blog Single</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                                <li><a href="/activity#works">勉強会</a></li>
+                                <li><a href="/activity#pj">プロジェクト</a></li>
+                                <li><a href="/test">アクセラレーターPJ</a></li>
                             </ul>
                         </li>
-                        <li><a href="blog.html">Blog</a></li> 
+                        <li><a href="/history">History</a></li>
+                        <li class="dropdown">
+                            <a href="/member" class="dropdown-toggle" data-toggle="dropdown">Members </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/member#now">現役メンバー紹介</a></li>
+                                <li><a href="/member#ob">OB・OG紹介</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/recruit">Recruit</a></li>
+                        <!-- <li><a href="/test">Blog</a></li>  -->
                         <li><a href="/contact">Contact</a></li>                        
                     </ul>
                 </div>
@@ -79,13 +96,13 @@
                 </div>
             </div>
         </div>
-    </footer><!--/#footer-->
+    </footer>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="http://shapebootstrap.net/demo/html/corlate/js/jquery.js"></script>
+    <script src="http://shapebootstrap.net/demo/html/corlate/js/bootstrap.min.js"></script>
+    <script src="http://shapebootstrap.net/demo/html/corlate/js/jquery.prettyPhoto.js"></script>
+    <script src="http://shapebootstrap.net/demo/html/corlate/js/jquery.isotope.min.js"></script>
+    <script src="http://shapebootstrap.net/demo/html/corlate/js/main.js"></script>
+    <script src="http://shapebootstrap.net/demo/html/corlate/js/wow.min.js"></script>
 </body>
 </html>
