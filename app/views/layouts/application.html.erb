@@ -33,7 +33,7 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
-<body style="min-height:100%">
+<body>
    <header id="header"><!--/.top-bar-->
 
         <nav class="navbar navbar-inverse" role="banner">
@@ -79,6 +79,8 @@
     </header><!--/header-->
 
 <%= yield %>
+
+<div class="stickyFooter" style="height: 82px;">
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
@@ -88,6 +90,7 @@
             </div>
         </div>
     </footer>
+</div>
     <script type="text/javascript" charset="UTF-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="http://shapebootstrap.net/demo/html/corlate/js/jquery.js"></script>
