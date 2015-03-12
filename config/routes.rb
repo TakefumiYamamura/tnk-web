@@ -7,6 +7,11 @@ Rails.application.routes.draw do
   get '/member' => 'top#member'
   get '/recruit' => 'top#recruit'
   get '/test' => 'top#test'
+
+  get 'contact' => 'inquiry#index'              # 入力画面
+  post 'contact/confirm' => 'inquiry#confirm'   # 確認画面
+  post 'contact/thanks' => 'inquiry#thanks'     # 送信完了画面
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
