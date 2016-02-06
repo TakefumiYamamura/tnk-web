@@ -19,7 +19,7 @@ Rails.application.configure do
     :port                 => 587,
     :domain               => 'www.venture-tnk.com',
     :user_name            => 'yama1223xxx',
-    :password             => 'toudaisei2012',
+    :password             => 'pop010918',
     # :password             => 'fqnskvlegahrvogw',
     :authentication       => 'plain',
     :enable_starttls_auto => true  }
