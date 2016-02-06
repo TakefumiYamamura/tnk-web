@@ -16,5 +16,5 @@
 /tmp
 
 
-congig/environments/development.rb
-congig/environments/production.rb
+/congig/environments/development.rb
+/congig/environments/production.rb
