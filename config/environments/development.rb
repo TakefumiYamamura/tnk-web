@@ -19,10 +19,9 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :domain               => 'localhost:3000',
-    :user_name            => 'yama1223xxx',
-    :password             => 'pop010918',
-    # :password             => 'fqnskvlegahrvogw',
+    :domain               => 'gmail.com',
+    :user_name            => 'htm197',
+    :password             => 'ffrflraxqsyjwidc',
     :authentication       => 'plain',
     :enable_starttls_auto => true  }
   # Print deprecation notices to the Rails logger.
