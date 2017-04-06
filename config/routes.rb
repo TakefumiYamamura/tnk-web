@@ -8,9 +8,9 @@ Rails.application.routes.draw do
   get '/recruit' => 'top#recruit'
   get '/test' => 'top#test'
 
-  # get '/inquiry' => 'inquiry#index'              # 入力画面
-  # post '/inquiry/confirm' => 'inquiry#confirm'   # 確認画面
-  # post '/inquiry/thanks' => 'inquiry#thanks', :as => :inquiry_thanks     # 送信完了画面
+  get '/inquiry' => 'inquiry#index'              # 入力画面
+  post '/inquiry/confirm' => 'inquiry#confirm'   # 確認画面
+  post '/inquiry/thanks' => 'inquiry#thanks', :as => :inquiry_thanks     # 送信完了画面
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
