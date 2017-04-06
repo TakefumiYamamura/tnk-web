@@ -19,11 +19,12 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :domain               => 'localhost:3000',
+    :domain               => 'gmail.com',
     :user_name            => 'htm197@gmail.com',
     :password             => 'ffrflraxqsyjwidc',
     :authentication       => 'plain',
-    :enable_starttls_auto => true  }
+    # :enable_starttls_auto => true
+    }
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
