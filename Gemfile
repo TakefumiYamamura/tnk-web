@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'sqlite3'
+  gem "letter_opener"
   # gem 'sqlite3-ruby', :require => 'sqlite3'
 end
 
